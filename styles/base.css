@@ -32,6 +32,12 @@ h2{
     align-items: center;
 }
 
+h1{
+    text-align: center;
+    font-size: 1.6rem;
+    
+}
+
 header{
     display: flex;
     align-items: center;
@@ -95,7 +101,7 @@ nav a:hover {
         margin: 5px 0; /* Espaciado vertical */
     }
 }
-/* Add hover effect */
+/* Agrega hover effect */
 
 a:hover {
     color: #0d0c0c; /* Change text color on hover */
@@ -142,7 +148,7 @@ main {
 }
 
 .large-card p {
-    text-align: center; /* Texto justificado */
+    text-align: justify; /* Texto justificado */
     line-height: 1; /* Mejor separación entre líneas */
 }
 
