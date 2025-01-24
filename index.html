@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wdth,wght@0,75..100,100..900;1,75..100,100..900&display=swap" rel="stylesheet">
+<script src="scripts/getdates.js" defer></script>
 </head>
 
 <body>
@@ -33,19 +34,20 @@
   <main>
   <!-- Card 1: 70% Width -->
   <div class="card large-card">
-    <h2>About Me</h2>
+    <h2>About Me</h2><br>
     <div class="card-content">
       <img src="images/happy_people.png" alt="Happy People">
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum quia delectus aliquid incidunt dicta excepturi, ullam nemo in magni distinctio nulla eaque libero exercitationem itaque, eveniet adipisci corrupti cupiditate porro.
       </p>
     </div>
+    <div><p><br>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos, sunt eum? Saepe debitis consectetur nostrum rerum nam quis facere cupiditate voluptatem! Quisquam placeat accusantium nostrum, alias pariatur dolores voluptas nesciunt. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam ipsa nemo repellat molestias porro, explicabo dolor culpa, voluptates maxime non numquam placeat necessitatibus quos esse debitis ex odit optio neque.</p></div>
   </div>
   
   <!-- Card 2: 30% Width -->
   <div class="card small-card">
-    <h2>Card 2</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam maiores tempora </p>
+    <h2>Card 2</h2><br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore veniam maiores tempora <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Porro amet modi, rerum praesentium magnam earum voluptate ipsam a qui ipsa soluta. Enim, veritatis delectus! Dignissimos cumque ratione accusamus praesentium aliquid!</p>
   </div>
 </main>
   
@@ -53,7 +55,8 @@
   
   <!-- Footer Section -->
   <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
-  </footer>
+  <p>&copy; <span id="currentyear"></span> Diego Garcia, Spain - </p>
+  <p id="lastModified"></p>
+</footer>
 </body>
 </html>

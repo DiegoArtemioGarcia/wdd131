@@ -167,11 +167,14 @@ main {
     }
 }
 
-footer{display: flex;
-    align-items: center;
+footer {
+    display: grid;
     justify-content: center;
     padding: 20px;
     background-color: var(--primary-color);
     color: var(--secondary-color);
     height: 100px; /* Altura fija */
+    font-size: .9rem;
+    align-content: center;
+
 }
