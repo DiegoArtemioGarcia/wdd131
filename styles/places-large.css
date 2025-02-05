@@ -1,0 +1,157 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font);
+}
+
+:root {
+    --main-bg-color: #f5f5f5;
+    --bluecolor1: #415a77;
+    --bluecolor2: #778da9;
+    --darkbluecolor: #1b263b;
+    --deepdarkblue: #0d1b2a;
+    --backgroundcolorgray: #e0e1dd;
+    --font: 'Roboto', sans-serif;
+    --font2: 'Open Sans', sans-serif;
+    --fontcolor: #333;
+    --fontcolor2: #fff;
+    --fontcolor3: #000;
+}
+
+h1 {
+    font-family: var(--font);
+    color: var(--fontcolor2);
+}
+
+header {
+    max-width: 1000px;
+    padding: 2rem;
+    background-color: var(--bluecolor1);
+    text-align: center;
+    margin: 0 auto;
+}
+
+/* Main Container */
+.container {
+    position: relative;
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Background Image */
+picture img {
+    width: 100%;
+    height: auto;
+    display: block;
+    
+}
+
+/* Card Styles */
+.card {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 15px;
+    border-radius: 15px;
+    width: 250px;
+    text-align: left;
+}
+
+/* Data Section */
+.data {
+    top: 20px;
+    left: 20px;
+    
+}
+
+/* Weather Section */
+.weather {
+    bottom: 20px;
+    right: 20px;
+    
+}
+
+/* Card Titles */
+.card h2 {
+    background: #2e7d32;
+    color: white;
+    padding: 5px;
+    margin: -15px -15px 10px -15px;
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    background-color: var(--bluecolor1);
+    color: white;
+    padding: 10px;
+    font-size: 14px;
+    margin: 0 auto;
+    max-width: 1000px;
+    text-align: center;
+}
+
+@media screen and (max-width: 550px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px; /* Espacio entre Data y Weather */
+        position: static; /* Asegura que el contenedor no se superponga */
+        
+    
+       
+    }
+
+    /* Asegurar que la imagen esté primero y ocupe todo el ancho */
+    .background-image {
+        width: 100%;
+        height: auto;
+        display: block;
+        
+    }
+
+    /* Estilo para las tarjetas asegurando que están debajo de la imagen */
+    .card  {
+        position: relative; /* Ya no es absoluta */
+        width: 100%; /* Ocupa el 90% del ancho para mejor distribución */
+        border-left: none; /* Eliminar borde verde */
+        background: rgba(255, 255, 255, 0.9); /* Fondo blanco limpio */
+        padding: 20px; /* Espacio interno */
+        text-align: left;
+        
+       
+        
+    }
+
+    .card h2 {
+        background: none; /* Sin fondo verde */
+        color: black; /* Mantener color de texto */
+        padding: 5px;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    /* Data Section */
+.data {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    top: 20px;
+    left: 0px;
+    
+}
+
+/* Weather Section */
+.weather {
+    bottom: 20px;
+    right: 0px;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+
+    
+}
