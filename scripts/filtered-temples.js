@@ -48,7 +48,30 @@ const temples = [
     dedicated: "1983, December, 2",
     area: 116642,
     imageUrl: "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
+    },
+   {
+    templeName: "Bountiful, Utah",
+    location: "Bountiful,Utah, United States",
+    dedicated: "1995, January, 14",
+    area: 392040,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/bountiful-utah-temple/bountiful-utah-temple-35439.jpg"
+    },
+   {
+    templeName: "Montevideo Uruguay",
+    location: "Montevideo, Uruguay",
+    dedicated: "1998, Novermber, 2",
+    area: 69260,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/montevideo-uruguay-temple/montevideo-uruguay-temple-18475.jpg"
+    },
+   {
+    templeName: "Rome Italy",
+    location: "Rome, Italy",
+    dedicated: "2019, october, 4",
+    area: 631620,
+    imageUrl: "https://churchofjesuschristtemples.org/assets/img/temples/rome-italy-temple/rome-italy-temple-3548.jpg"
   }
+   
+  
 ];
 
 // Filtrar templos por categorías
