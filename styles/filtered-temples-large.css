@@ -1,0 +1,43 @@
+/* Estilos para pantallas grandes */
+@media (min-width: 768px) {
+    body {
+        font-size: 1.2rem;
+    }
+
+    header {
+        justify-content: space-evenly;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    #menu {
+        display: flex;
+        gap: 20px;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);  /* 3 columnas para pantallas más grandes */
+        gap: 20px;
+    }
+
+    .gallery figure {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+    }
+
+    .gallery figure:hover {
+        transform: scale(1.05);
+    }
+
+    .gallery img {
+        border-radius: 10px;
+        object-fit: cover;  /* Asegura que la imagen cubra el área del contenedor */
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+    }
+}
