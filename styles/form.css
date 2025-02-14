@@ -1,0 +1,88 @@
+body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f4;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+    }
+    form {
+        background: rgb(233, 232, 232);
+        padding: 20px;
+        margin: 1px auto;
+        margin-bottom: 1%;
+        width: 80%;
+        max-width: 500px;
+        border-radius: 10px;
+        
+        
+    }
+  
+
+.rating {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    justify-content:right;
+    
+}
+
+.rating label {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    
+    font-size: 10px;
+    cursor: pointer;
+    color: gray;
+}
+
+.rating input {
+    appearance: none;
+    width: 19px;
+    height: 19px;
+    border: 2px solid rgb(69, 68, 68);
+    border-radius: 50%;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.rating input:checked {
+    background-color: #5cb85c;
+}
+    button {
+        background: #5cb85c;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 1.3rem;
+        cursor: pointer;
+        margin-top: 10px;
+        border-radius: 7px;
+    }
+
+    div{
+        margin: 5%;
+        margin-top: 3%;
+        
+    }
+    .title{
+        
+        color: rgb(247, 246, 246);
+        background-color: black;
+         padding: 20px;
+        margin: 50px auto;
+        width: 80%;
+        max-width: 500px;
+        margin-bottom: 1%;
+    }
+    .footer{
+         color: rgb(247, 246, 246);
+        background-color: black;
+         padding: 20px;
+          margin: 50px auto;
+        margin-top: 1px;
+        width: 80%;
+        max-width: 500px;
+        
+        
+    }
