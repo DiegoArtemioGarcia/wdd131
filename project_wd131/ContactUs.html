@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Plan - ExplorePetrer.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="scripts/temples.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="img">
+            <img src="images/logo.WebP" alt="Logo ExplorePetrer" width="250">
+            <h1>ExplorePetrer.com</h1>
+        </div>
+        <button id="abrir" class="abrir-menu" aria-label="Abrir menú" aria-hidden="true">
+    <i class="bi bi-list"></i>
+</button>
+
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar" aria-label="Cerrar menú" aria-hidden="true">
+    <i class="bi bi-x-lg"></i>
+</button>
+
+            <ul class="nav-list">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+<div class="title"><h2>Contact</h2></div> 
+    <form action="review.html" method="get">
+       
+        
+        <label for="product">What can we do for you</label>
+        <div><select id="product" name="product" required>
+            <option value="" disabled selected>Choose ...</option>
+        </select></div>
+        
+        
+      
+        <label for="date">Select the date of your visit</label>
+       <div>
+        <input type="date" id="date" name="date" required>
+        </div> 
+
+        <label>Which activities do you have in mind? (Check all that apply)</label>
+<div class="activities-section">
+    <input type="checkbox" id="Museum" name="features" value="Museum">
+    <label for="Museum">Museum</label>
+    <input type="checkbox" id="Trekking" name="features" value="Trekking">
+    <label for="Trekking">Trekking</label>
+    <input type="checkbox" id="Restaurant" name="features" value="Restaurant">
+    <label for="Restaurant">Restaurant</label>
+    <input type="checkbox" id="Shopping" name="features" value="Shopping">
+    <label for="Shopping">Shop</label>
+</div>
+
+        
+        <label for="review">Written Review (Optional)</label>
+        <div><textarea id="review" name="review"></textarea></div>
+        
+        
+        <label for="username">Your Name (Optional)</label>
+        <div><input type="text" id="username" name="username"></div>
+        
+        <button type="submit">Post Review</button>
+    </form>
+    <footer>
+        <p>&copy; <span id="year"></span> - ExplorePetrer.com</p>
+        <p>Última actualización: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

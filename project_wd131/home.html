@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Plan - ExplorePetrer.com</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script defer src="scripts/temples.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;600;700&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="img">
+            <img src="images/logo.WebP" alt="Logo ExplorePetrer" width="250">
+            <h1>ExplorePetrer.com</h1>
+        </div>
+        <button id="abrir" class="abrir-menu" aria-label="Abrir menú" aria-hidden="true">
+    <i class="bi bi-list"></i>
+</button>
+
+        <nav class="nav" id="nav">
+            <button class="cerrar-menu" id="cerrar" aria-label="Cerrar menú" aria-hidden="true">
+    <i class="bi bi-x-lg"></i>
+</button>
+
+            <ul class="nav-list">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="imagenpetrer">
+            <img src="images/petrer.webp" alt="Vista de Petrer">
+        </div>
+        <div class="textoprincipal">
+            <h2>Discover The History and Nature of Petrer</h2>
+            <div class="introduccion">
+                <p>
+                    In the fertile <strong>Vinalopó Valley</strong>, surrounded by exceptional nature, lies 
+                    <strong>Petrer</strong>, at the foot of its imposing <strong>Muslim-origin fortress</strong>, 
+                    the city's most important heritage site and a must-visit landmark. From there, the 
+                    winding streets of its <strong>medieval old town</strong> cascade down the hillside to the town center. 
+                    <strong>Petrer</strong> is part of <strong>The Route of El Cid</strong>, following in his footsteps along 
+                    the section known as <strong>The Defense of the South</strong>. In addition to exploring the town, 
+                    don't miss the <strong>Puça Ravine Waterfalls Route</strong>—you'll love it!
+                </p>
+            </div>
+        </div>
+        <div class="map-container">
+            <h2>Explore Petrer on the Map</h2>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12532.371263299405!2d-0.7759185095514973!3d38.48207326911314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd63b62b9bce1917%3A0x4a2d1fcf4884d94f!2sPetrer%2C%20Alicante!5e0!3m2!1sen!2ses!4v1708368372835!5m2!1sen!2ses" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> - ExplorePetrer.com</p>
+        <p>Última actualización: <span id="lastModified"></span></p>
+    </footer>
+</body>
+</html>

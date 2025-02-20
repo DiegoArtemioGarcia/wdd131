@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Confirmation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="confirmation">
+        <h1>Thank You for Your Recuest!</h1>
+        <p>Your request has been submitted successfully.</p>
+        <p>Total request Submitted: <span id="reviewCounter">0</span></p>
+        <a href="ContactUs.html">Submit Another Request</a>
+    </div>
+    
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            let reviewCount = localStorage.getItem("reviewCount") || 0;
+            document.getElementById("reviewCounter").textContent = reviewCount;
+        });
+    </script>
+</body>
+</html>
